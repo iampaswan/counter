@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+
+}
+
+.box{
+  /* border: 2px solid rgb(29, 17, 17); */
+  height:300px;
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+
+  background-color: rgb(77, 22, 22);
+  color: rgb(9, 233, 20);
+  font-size: 3rem;
+  border-radius: 4px;
+}
+
+#dBtn, #rBtn, #iBtn{
+  background-color: rgb(133, 91, 175);
+  color: antiquewhite;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+  border: none;
+}
+
+#rBtn:hover{
+  background-color: rgb(15, 149, 211);
+}
+
+#dBtn:hover{
+  background-color: rgb(196, 8, 8);
+}
+
+#iBtn:hover{
+  background-color: rgb(17, 172, 17);
+}
+
+
+
+
+
